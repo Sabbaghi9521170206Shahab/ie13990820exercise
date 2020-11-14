@@ -1,0 +1,213 @@
+
+@media screen and (max-width: 1024px) {
+	html{
+        background-color: black;
+        padding-left: 4%;
+        padding-right: 4%;
+
+
+	}
+}
+@media screen and (max-width: 720px) {
+	html{
+        background-color: black ;
+        padding-left: 1%;
+        padding-right: 1%;
+
+
+	}
+}
+
+.theme
+    {
+        background: rgb(0, 0, 0);
+    }
+
+
+.menu
+    {
+        display: flex;
+		direction: rtl;
+		background-color: rgb(78, 78, 78);
+        border-radius: 2px;
+        height: 50px;
+       
+    }
+
+.textBoxmenu
+    {
+        width: 5%;
+        font-size: 25px;
+        line-height: 50px;
+        font-family: 'b nazanin';
+        color: white;
+        margin: 1px 10px 1px 1px;
+    }
+.imageBox
+    {
+        
+        height: 50px;
+        cursor: pointer;
+
+    }
+    
+      
+     
+      
+      /* mouse over link */
+a:hover 
+    {
+        
+        background: rgba(0, 0, 0, 0.582);
+        
+    }
+      
+      
+
+.grid-item
+    {
+        display: grid;
+        column-gap: 2px;
+        row-gap: 2px;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        margin: 10px 10px 50px 10px;
+        
+    }
+
+    .flex-item
+    {
+        display: flex;
+        
+        margin: 10px 10px 50px 10px;
+
+        
+    }
+.BoxCenter
+    {
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 1; 
+        grid-row-end: 5; 
+    }
+.BoxLeft
+    {
+        grid-column-start: 1; 
+        grid-column-end: 1; 
+        grid-row-start: 1; 
+        grid-row-end: 4; 
+    }
+.BoxRight
+    {
+        grid-column-start: 3; 
+        grid-column-end: 3; 
+        grid-row-start: 1; 
+        grid-row-end: 4; 
+    }
+.BoxCenter1
+    {
+        
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 1; 
+        grid-row-end: 2; 
+    }
+    .BoxCenter2
+    {
+        
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 2; 
+        grid-row-end: 3; 
+    }
+    .BoxCenter3
+    {
+        
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 3; 
+        grid-row-end: 4; 
+    }    
+.textBoxleft
+    {
+       
+        width: 100%;
+        direction: rtl;
+        text-align: center; 
+        font-family: 'b nazanin';
+        font-size: 25px;
+        color: goldenrod;
+        background: rgb(43, 41, 41);
+        border-radius: 50px;
+        border-top: 2px  solid rgb(133, 143, 228);
+        border-bottom: 2px  solid rgb(133, 143, 228);
+    }
+.textBoxcenter
+    {
+        margin: 5px 0px 5px 0px;
+        width: 100%;
+        direction: rtl;
+        text-align: center; 
+        font-family: 'b nazanin';
+        font-size: 25px;
+        color: goldenrod;
+        background: rgb(0, 0, 0);
+        border-radius: 50px;
+        border-top: 5px  solid rgb(133, 143, 228);
+        border-bottom: 5px  solid rgb(133, 143, 228);
+    }
+.textBoxright
+    {
+       
+        width: 100%;
+       
+        direction: rtl;
+        text-align: center; 
+        font-family: 'b nazanin';
+        font-size: 25px;
+        color: goldenrod;
+        background: rgb(43, 41, 41);
+        border-radius:  50px;
+        border-top: 2px  solid rgb(133, 143, 228);
+        border-bottom: 2px  solid rgb(133, 143, 228);
+    }
+
+.text
+    {
+        text-align: center;
+        margin: 5px;
+        direction: rtl;
+        width: 97%;
+        font-family: 'b nazanin';
+        font-size: 25px;
+        color: goldenrod;
+        
+    }
+.margin
+    {
+        margin: 1px 20px 1px 1px;
+    }
+.car
+    {
+       
+        width: 100%;
+    }
+.para
+    {
+        text-align: center;
+        margin: 5px 50px 5px 1px;
+        direction: rtl;
+        width: 100%;
+        font-family: 'b nazanin';
+        font-size: 25px;
+        color: goldenrod;
+        border-radius: 20px;
+        border: 2px  solid white;
+    }
+
+.Border
+    {
+        margin: 5px;
+        border-radius: 20px;
+        border: 2px solid white;
+    }
